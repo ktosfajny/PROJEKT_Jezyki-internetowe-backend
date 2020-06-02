@@ -4,14 +4,16 @@ W tym repozytorium znajduje się backend do strony internetowej.
 Na heroku znajduje się deploy tego backendu z commita o nazwie: 
 'move backend files to main dir, create procfile, update server.js, delete readme'
 
+Link do servera na [heroku](https://future-is-now-server.herokuapp.com/)
+
 ---
 
 ### Linki do pozostałych części projektu:
 
 W tym repo znajduje się backend. Linki do wersji lokalnej oraz frontendu:
 
-[wersja lokalna](https://github.com/ktosfajny/PROJEKT_Jezyki-internetowe)
-[frontend](https://github.com/ktosfajny/PROJEKT_Jezyki-internetowe-frontend)
+1. [wersja lokalna](https://github.com/ktosfajny/PROJEKT_Jezyki-internetowe)
+2. [frontend](https://github.com/ktosfajny/PROJEKT_Jezyki-internetowe-frontend)
 
 ---
 
