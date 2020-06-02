@@ -8,6 +8,15 @@ Link do servera na [heroku](https://future-is-now-server.herokuapp.com/)
 
 ---
 
+### Struktura projektu i repozytorium:
+
+Od początku tworzenia repozytorium aż to commita 'update README - possible hosting in the near future' (włącznie z nim) backend oraz frontend przechowywane były w jednym głównym katalogu. Utworzone były w nim specjalne podkatalogi: 'backend' dla backendu oraz 'frontend' dla frontendu.
+Na tamten stan aby uruchomić projekt należało pobrać całe repozytorium i lokalnie uruchomić server oraz stronę. 
+
+Nastepnie rozdzieliłem backend i frontend na osobne repozytoria, toteż commit 'update README - possible hosting in the near future' jest ich ostatnim współnym punktem w historii tych repo. 
+
+---
+
 ### Linki do pozostałych części projektu:
 
 W tym repo znajduje się backend. Linki do wersji lokalnej oraz frontendu:
