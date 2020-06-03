@@ -23,7 +23,11 @@ function questions(app) {
         const { nextQuestionNR, stats } = req.body
 
         //jeśli odpowiedziales juz na wszystko to w tym if'ie zwroci się ostateczny wynik
-        if (nextQuestionNR === questionsDB.length) {
+        if (nextQuestionNR >= questionsDB.length) {
+
+            if (nextQuestionNR > questionsDB.length) {
+                nextQuestionNR = questionsDB.length
+            }
 
             //sprawdzenie typu postaci
             let characterNumber = Math.max(stats[0], stats[1], stats[2], stats[3])
