@@ -20,7 +20,7 @@ function questions(app) {
     //ten end-point obsługuje wysyłanie kolejnych pytań i okreslenie jaki jest typ characteru
     app.post('/api/question', (req, res) => {
 
-        const { nextQuestionNR, stats } = req.body
+        let { nextQuestionNR, stats } = req.body
 
         //jeśli odpowiedziales juz na wszystko to w tym if'ie zwroci się ostateczny wynik
         if (nextQuestionNR >= questionsDB.length) {
